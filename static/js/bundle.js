@@ -42706,6 +42706,20 @@ function App() {
           lineNumber: 19,
           columnNumber: 11
         }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxDEV)(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Route, {
+          path: "/index.html",
+          element: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxDEV)(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Navigate, {
+            to: "/",
+            replace: true
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 20,
+            columnNumber: 48
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 20,
+          columnNumber: 11
+        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxDEV)(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Route, {
           path: "/about",
           element: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxDEV)(_pages_AboutPage__WEBPACK_IMPORTED_MODULE_6__.AboutPage, {
             "x-file-name": "App",
@@ -42780,6 +42794,20 @@ function App() {
         }, void 0, false, {
           fileName: _jsxFileName,
           lineNumber: 23,
+          columnNumber: 11
+        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxDEV)(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Route, {
+          path: "*",
+          element: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxDEV)(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Navigate, {
+            to: "/",
+            replace: true
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 24,
+            columnNumber: 40
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 24,
           columnNumber: 11
         }, this)]
       }, void 0, true, {
