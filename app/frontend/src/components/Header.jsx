@@ -39,7 +39,7 @@ export const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
             <img
-              src="/IMGS/athyuk.png"
+              src="IMGS/athyuk.png"
               alt="Athyuk logo"
               className="w-10 h-10 rounded-lg object-cover bg-white transform group-hover:scale-105 transition-transform duration-300"
             />

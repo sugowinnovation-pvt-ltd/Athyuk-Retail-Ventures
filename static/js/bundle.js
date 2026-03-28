@@ -42666,6 +42666,7 @@ var _jsxFileName = "/app/frontend/src/App.js";
 
 
 function App() {
+  const routerBase = window.location.hostname.includes("github.io") ? "/Athyuk-Retail-Ventures" : "";
   return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxDEV)("div", {
     className: "App",
     "x-file-name": "App",
@@ -42675,6 +42676,7 @@ function App() {
     "x-id": "App_15_4",
     "x-dynamic": "false",
     children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxDEV)(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.BrowserRouter, {
+      basename: routerBase,
       "x-file-name": "App",
       "x-line-number": "16",
       "x-column": "6",
@@ -42960,7 +42962,7 @@ const Footer = () => {
             "x-id": "Footer_22_12",
             "x-dynamic": "false",
             children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)("img", {
-              src: "/IMGS/athyuk.png",
+              src: "IMGS/athyuk.png",
               alt: "Athyuk logo",
               className: "w-10 h-10 rounded-lg object-cover bg-white",
               "x-file-name": "Footer",
@@ -43533,7 +43535,7 @@ const Header = () => {
           to: "/",
           className: "flex items-center space-x-3 group",
           children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_5__.jsxDEV)("img", {
-            src: "/IMGS/athyuk.png",
+            src: "IMGS/athyuk.png",
             alt: "Athyuk logo",
             className: "w-10 h-10 rounded-lg object-cover bg-white transform group-hover:scale-105 transition-transform duration-300",
             "x-file-name": "Header",

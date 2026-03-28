@@ -11,9 +11,13 @@ import { ContactPage } from "./pages/ContactPage";
 import { Toaster } from "./components/ui/sonner";
 
 function App() {
+  const routerBase = window.location.hostname.includes("github.io")
+    ? "/Athyuk-Retail-Ventures"
+    : "";
+
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={routerBase}>
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />

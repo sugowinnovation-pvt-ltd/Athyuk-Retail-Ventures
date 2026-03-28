@@ -21,7 +21,7 @@ export const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <img
-                src="/IMGS/athyuk.png"
+                src="IMGS/athyuk.png"
                 alt="Athyuk logo"
                 className="w-10 h-10 rounded-lg object-cover bg-white"
               />
